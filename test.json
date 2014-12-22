@@ -1,0 +1,37 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.0",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2014-12-20T23:50:20.371Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AHMCXU97VXMU1"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "10.87.134.98"
+            },
+            "responseElements": {
+                "x-amz-request-id": "28D7643DF695D862",
+                "x-amz-id-2": "oJ5HU7kT8vLPhlXAWtjdafw0lYaqq8BWLUqJTOs3giRsBUMwFxHFnTbv+Vz8/Hay"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "quickCreateConfig",
+                "bucket": {
+                    "name": "lamdba",
+                    "ownerIdentity": {
+                        "principalId": "AHMCXU97VXMU1"
+                    },
+                    "arn": "arn:aws:s3:::lamdba"
+                },
+                "object": {
+                    "key": "index.png",
+                    "size": 7969,
+                    "eTag": "4ae680c0a7352aaea034a82572d4ee78"
+                }
+            }
+        }
+    ]
+}

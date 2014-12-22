@@ -1,0 +1,15 @@
+{
+  "name": "ocr_lambda",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "zip -r code.zip index.js node_modules"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "okrabyte": "^0.0.1"
+  }
+}
